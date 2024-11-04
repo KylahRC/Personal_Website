@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #5A5A5A;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    flex: 1;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    background-color: #8DD873;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    flex-shrink: 0; /* Ensure header doesn't shrink */
+}
+
+h1 {
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8DD873;
+    font-weight: normal;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+p {
+    color: black;
+    font-family: 'Verdana', sans-serif;
+}
+
+a {
+    color: #8DD873;
+}
+
+.column-container {
+    color: black;
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.code-box {
+    background-color: #5A5A5A;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.outerBox {
+    background-color: #424040;
+    border: 3px solid #8DD873;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.boxContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #90EE90; /* Light green background */
+    color: black; /* Black text */
+    border-radius: 10px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* No border */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 0 10px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #76c776; /* Darker green on hover */
+}
+
+.footer {
+    color: black;
+    padding: 20px;
+    background-color: #8DD873;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    flex-shrink: 0; /* Ensure footer doesn't shrink */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

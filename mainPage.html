@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylah's Software Development Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showContent(content) {
+            document.getElementById('content-box').innerHTML = content;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        Kylah's Software Development Portfolio
+    </header>
+    <br>
+    <div class="content">
+        <center>
+            <h1 style="background-color: #5A5A5A; color: #8DD873; text-align: center;"> A little about me: </h1>
+            <p style="margin-left: 20%; margin-right: 20%; text-align: justify;">As a first-year student at RoseBank
+                College, I am currently
+                pursuing a Diploma in Information Technology, specializing in Software Development. Coding for me is
+                akin to building a Lego set—each line of code is a brick, and the final program or website is a
+                completed masterpiece. I pride myself on exceptional time management, consistently going to bed by 9:30
+                PM and completing all my tasks well ahead of schedule. Being extroverted, I thrive in team environments
+                with good chemistry, but I am equally adept at working independently. My problem-solving starts as soon
+                as a challenge is presented, often going the extra mile to enhance functionality or aesthetics. My
+                dedication and diligence are evident in my near-perfect attendance, even when I'm the sole student
+                present in class.
+                <br><br>
+                Outside of coding, I thrive in the great outdoors. I love visiting national parks and animal
+                sanctuaries, and I take immense pride in my gardening skills. I’ve successfully nurtured various plants
+                and even rescued succulents from near death, sometimes growing new ones from dropped leaves. My deep
+                compassion for all creatures means I can hardly swat a fly without an apology. For years, I’ve been
+                feeding wild birds in my garden, and now a loyal flock of pigeons walks up to me, food or no food in
+                hand. I also care for two happy budgies named Blue and Chirp. As a registered Emergency First Aid
+                Responder (EFAR), I am always ready to jump to someones aid.
+            </p>
+
+            <p style="margin-left: 20%; margin-right: 20%;">See the buttons below and choose which you would like to
+                view. Since the free site hosting does not like me
+                having multiple html files on the site, I have done my best to make this site in one file. This was my
+                solution
+                to that.</p>
+        </center>
+
+        <div class="button-container">
+            <button onclick="showContent('letters from lecturer')">Lecturer testimonials</button>
+            <button onclick="showContent('CV details')">View my CV</button>
+            <button onclick="showContent(`
+        <h1 style=' text-align: center;'> Some of my college work:</h1>
+        <p> Here’s some links to GitHub repositories and GitHub Pages deployments which feature some of my work. I have included the marks I received for the work if they were for marks.</p><br><br>
+        <h1 style='margin-right: 60%;font-size: larger;'>From my Programming modules:</h1>
+        <p>Programming 1A:<br>
+        <a href='https://github.com/KylahRC/PROG5121_POE_Part_1.git'>POE part 1</a> (Mark: 100%)<br>
+        <a href='https://github.com/KylahRC/POE-Part-2.git'>POE part 2</a> (Mark: 91%)<br>
+        <a href='https://github.com/KylahRC/Easy-KanBan-POE.git'>POE part 3</a> (Mark: 83%)<br><br>
+        Programming 1B:<br>
+        <a href='https://github.com/KylahRC/PROG6121_Prac_Assignment.git'>Practical Assignment Part 1</a> (Mark: 100%)<br>
+        <a href='https://github.com/KylahRC/PROG1B_Prac_Assign_Q2.git'>Practical Assignment Part 2</a> (Mark: 74%)<br>
+        </p><br>
+        <h1 style='margin-right: 60%;font-size: larger;'>Web Development (Introduction):</h1><br>
+        <p>The POE for this module was a group activity, I worked with one other student. I have had to separate the code into its various stages (parts) as the original project had all stages in one (private) repository.<br><br>
+        <a href='https://github.com/KylahRC/WEDE5020_POE_Part_1.git'>POE part 1</a> (Mark: 98%) <a href='https://kylahrc.github.io/WEDE5020_POE_Part_1/'>Pages Link</a> *mostly done by me*<br>
+        <a href='https://github.com/KylahRC/WEDE5020_POE_Part_2.git'>POE part 2</a> (Mark: 96%) <a href='https://kylahrc.github.io/WEDE5020_POE_Part_2/'>Pages Link</a> *mostly done by partner*<br>
+        <a href=''>POE part 3</a> (Mark: ) <a href='https://kylahrc.github.io/WEDE5020_POE_Part_1/'>Pages Link</a> *equal split of work*<br><br>
+        Below are class activities we did to practice our skills. Our lecturer would use AI to generate business plans that we needed to make websites for or gave simple (non-AI) tasks to do.<br><br>
+        <a href='https://github.com/KylahRC/NeuroEnhanceSolutions.git'>NeuroEnhance Sciences</a> (<a href='https://kylahrc.github.io/NeuroEnhanceSolutions/'>Pages link</a>)<br>
+        <a href='https://github.com/KylahRC/ChillTheEarthOut.git'>Chill the earth out</a> (<a href='https://kylahrc.github.io/ChillTheEarthOut/'>Pages link</a>)<br>
+        </p>`)">Previous Projects</button>
+        </div>
+
+        <div class="boxContainer">
+            <div class="outerBox">
+                <div class="code-box" id="content-box">
+                    <p>This is a simple box styled to look like a code example container.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <footer class="footer">
+        Copyright Kylah Irvine 2024
+    </footer>
+</body>
+
+</html>
